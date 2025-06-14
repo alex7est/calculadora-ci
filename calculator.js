@@ -1,23 +1,10 @@
-var Calculator = class {
-    constructor() {
-        this.result = 0;
-    }
-    sum(a, b) {
-        if (a == null || b == null) {
-            return 0;
-        }
-
-        var result = a + b;
-
-        console.log("El resultado es: " + result);
-
-        return result;
-    }
-    unusedMethod() {
-        let x = 1;
-        let y = 2;
-        return x + y;
-    }
+class Calculator {
+ sum(a, b) {
+ if (typeof a !== 'number' || typeof b !== 'number') {
+ throw new Error('Los parámetros deben ser números');
+ }
+ return a + b;
+ }
 }
-
+//válido
 module.exports = Calculator;
