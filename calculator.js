@@ -8,3 +8,4 @@ class Calculator {
 }
 //válido
 module.exports = Calculator;
+//test
