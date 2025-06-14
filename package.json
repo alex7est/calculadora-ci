@@ -19,5 +19,10 @@
   "homepage": "https://github.com/alex7est/calculadora-ci#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0"
   }
 }
